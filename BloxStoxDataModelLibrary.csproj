@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Authors>Tequa Creek Holdings, LLC</Authors>
+    <Product>TequaCreek.BloxStoxDataModelLibrary</Product>
+    <Copyright>Copyright (C) 2022 Tequa Creek</Copyright>
+    <AssemblyName>TequaCreek.BloxStoxDataModelLibrary</AssemblyName>
+    <RootNamespace>TequaCreek.BloxStoxDataModelLibrary</RootNamespace>
+    <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+  </PropertyGroup>
+
+</Project>
