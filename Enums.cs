@@ -42,7 +42,7 @@ namespace TequaCreek.BloxStoxDataModelLibrary
     {
         Cash = 1,
         Stock,
-        CorporateEarnings
+        DistributedCorpEarnings
     }
 
     /// <summary>
@@ -57,7 +57,9 @@ namespace TequaCreek.BloxStoxDataModelLibrary
         GetCurrentOwnedAssets,
         GetActivityListForPlayer,
         BuyAsset,
-        SellAsset
+        SellAsset,
+        OpenOutboundThread,
+        CloseOutboundThread
     }
 
     /// <summary>
