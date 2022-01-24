@@ -63,6 +63,14 @@ namespace TequaCreek.BloxStoxDataModelLibrary
     }
 
     /// <summary>
+    /// Defines the Payload Type for a received message from External Endpoint
+    /// </summary>
+    public enum FromExternalPayloadType
+    {
+        UpdatedTickerInformation = 1
+    }
+
+    /// <summary>
     /// Defines the Payload Type for a sent message to In-Game Endpoint
     /// </summary>
     public enum ToInGamePayloadType
