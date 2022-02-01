@@ -9,6 +9,10 @@ namespace TequaCreek.BloxStoxDataModelLibrary
     public class SharedConstantValues
     {
 
+        public static string CHANGE_DIRECTION_INDICATOR_INCREASE = "I";
+        public static string CHANGE_DIRECTION_INDICATOR_DECREASE = "D";
+        public static string CHANGE_DIRECTION_INDICATOR_NO_CHANGE = "U";
+
         //////////////////////////////////////////////////////////////////////
         // Shared constants between web application and processing service ///
         //////////////////////////////////////////////////////////////////////
