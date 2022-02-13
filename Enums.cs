@@ -72,7 +72,7 @@ namespace TequaCreek.BloxStoxDataModelLibrary
     }
 
     /// <summary>
-    /// Defines the Payload Type for a received message from External Endpoint
+    /// Defines the type of Ticker Entry List
     /// </summary>
     public enum TickerEntryListType
     {
@@ -84,5 +84,16 @@ namespace TequaCreek.BloxStoxDataModelLibrary
         TopXLosersByPercentage
     }
 
+    /// <summary>
+    /// Defines the type of Leaderboard Entry List
+    /// </summary>
+    public enum LeaderboardEntryListType
+    {
+        OverallByAssetValue = 1,
+        OverallByAssetValueByTimeInGame,
+        BestEarningsFromDividends,
+        BestSellSavingsFromLossPrior7Days,
+        BestBuyValueIncreasePrior7Days,
+    }
 
 }

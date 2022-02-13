@@ -10,6 +10,7 @@ namespace TequaCreek.BloxStoxDataModelLibrary.Models
     {
         string entryId { get; set; }
         string inGameUserId { get; set; }
+        string platform { get; set; }
         string leaderboardTextDetail { get; set; }
         decimal leaderboardNumericDetail { get; set; }
 
