@@ -58,8 +58,8 @@ namespace TequaCreek.BloxStoxDataModelLibrary
         GetActivityListForPlayer,
         BuyAsset,
         SellAsset,
-        OpenOutboundThread,
-        CloseOutboundThread
+        OpenManagementThread,
+        CloseManagementThread
     }
 
     /// <summary>
@@ -67,7 +67,8 @@ namespace TequaCreek.BloxStoxDataModelLibrary
     /// </summary>
     public enum FromExternalPayloadType
     {
-        UpdatedTickerInformation = 1
+        UpdatedTickerInformation = 1,
+        UpdatedLeaderboardInformation
     }
 
     /// <summary>
